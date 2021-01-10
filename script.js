@@ -60,7 +60,7 @@ btnOK.addEventListener('click', (e) => {
     rezultat.innerHTML = `${stanje}`
     opis.value = ''
     iznos.value = ''
-    izaberi.value = ''
+    izaberi.value = '-1'
 
     console.log('ukupan prihod je=', UkupanPrihod)
     console.log('ukupan rashod je=', UkupanRashod)
