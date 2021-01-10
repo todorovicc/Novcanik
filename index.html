@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novcanik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="zaglavlje">
+        <h3>Trenutno stanje:</h3>
+        <h1 id="stanje">0</h1>
+        <div id="prihod">
+            <p>UKUPNI PRIHODI: </p>
+            <p id="dodato">0</p>
+        </div>
+        <div id="rashod">
+            <p>UKUPNI RASHODI: </p>
+            <p id="oduzeto">0</p>
+        </div>
+    </div>
+
+    <!-- UNOS PODATAKA -->
+    <section id="korisnik">
+        <form>
+            <select name="select" id="izaberi">
+            <option id="0" value="-1" selected disabled>?</option>
+    <option id="1" value="prihod">prihod</option>
+    <option id="2" value="rashod">rashod</option>
+</select>
+            <input id="opis" type="text" placeholder="Opis">
+            <input type="number" id="iznos" placeholder="Iznos">
+            <input type="submit" id=enter value="UNESI">
+        </form>
+    </section>
+
+
+    <section id="liste">
+        <div id="lprihoda">
+            <h3>Lista Prihoda</h3>
+        </div>
+        <div id="lrashoda">
+            <h3>Lista Rashoda</h3>
+        </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
