@@ -7,7 +7,7 @@ body {
 
 #zaglavlje {
     background-color: rgb(203, 213, 241);
-    padding: 20px;
+    padding: 15px;
 }
 
 #zaglavlje #prihod {
@@ -37,16 +37,27 @@ body {
 #korisnik {
     background-color: rgb(228, 224, 224);
     padding: 20px;
+    vertical-align: center;
 }
 
 #liste {
     display: flex;
-    flex: space-between;
+    justify-content: space-around;
 }
 
 #lprihoda,
 #lrashoda {
-    padding: 20px;
-    margin: 20px;
-    width: 50%;
+    padding: 2px;
+    margin: 3px;
+    width: 35%;
+}
+
+#lprihoda h3 {
+    color: rgb(79, 151, 79);
+    background-color: rgb(243, 243, 245);
+}
+
+#lrashoda h3 {
+    color: rgb(194, 51, 8);
+    background-color: rgb(243, 243, 245);
 }
